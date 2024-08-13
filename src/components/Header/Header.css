@@ -2,6 +2,7 @@ header {
     height: 10vh;
     line-height: 10vh;
     width: 100%;
+    background-color: white;
   }
 
   header ul {
@@ -10,7 +11,7 @@ header {
   }
   header ul li {
     margin-left: 30px;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
   }
@@ -21,6 +22,7 @@ header {
   
   header .container {
     padding-top: 15px;
+    padding-bottom: 10px;
   }
 
 
