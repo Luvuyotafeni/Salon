@@ -4,6 +4,10 @@ header {
     width: 100%;
   }
 
+  header ul {
+    display: flex;
+    flex-direction: row;
+  }
   header ul li {
     margin-left: 30px;
     font-size: 3rem;
@@ -15,8 +19,9 @@ header {
     color: black;
   }
   
-header .container {
+  header .container {
     padding-top: 15px;
   }
+
 
 

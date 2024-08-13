@@ -4,12 +4,12 @@ import './Header.css'
 const Header = () => {
   return (
     <div>
-      <header>
-        <div>
-          <div>
+      <header className='header'>
+        <div className='container d-flex'>
+          <div className='logo '>
 
           </div>
-          <div>
+          <div >
             <ul>
               <li><a href=''>Home</a></li>
               <li><a href=''>About</a></li>
