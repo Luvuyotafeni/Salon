@@ -4,3 +4,13 @@
     margin-left: 200px;
     margin-bottom: 100px;
 }
+
+.carousel img{
+    height:500px;
+}
+
+.center{
+    text-align: center;
+    margin: 80px;
+    
+}
