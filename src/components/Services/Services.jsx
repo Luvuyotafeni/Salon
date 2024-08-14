@@ -1,6 +1,7 @@
 import React from 'react'
 import Manicure from '../Assets/Manicure.jpg'
 import Make_up from '../Assets/Make Up.jpeg'
+import Hair from '../Assets/Hair.jpeg'
 
 const Services = () => {
   return (
@@ -18,7 +19,7 @@ const Services = () => {
                 <img class="d-block w-100" src={Manicure} alt="First slide"></img>
                 </div>
                 <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Second slide"></img>
+                <img class="d-block w-100" src={Hair} alt="Second slide"></img>
                 </div>
                 <div class="carousel-item">
                 <img class="d-block w-100" src={Make_up} alt="Third slide"></img>
