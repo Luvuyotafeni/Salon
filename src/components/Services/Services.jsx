@@ -11,7 +11,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const Services = () => {
   return (
-    <div>
+    <div className='Services'>
         <h2 className='center'>Services</h2>
         <div className='carousel'>
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">

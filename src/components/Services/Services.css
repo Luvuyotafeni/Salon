@@ -3,6 +3,7 @@
     height: 500px;
     margin-left: 200px;
     margin-bottom: 100px;
+    margin-top: 0;
 }
 
 .carousel img{
@@ -13,4 +14,9 @@
     text-align: center;
     margin: 80px;
     
+}
+
+.Services{
+    background-color: #FCAFAF;
+    height: 700px;
 }
