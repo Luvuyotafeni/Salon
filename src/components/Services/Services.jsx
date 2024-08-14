@@ -1,5 +1,6 @@
 import React from 'react'
 import Manicure from '../Assets/Manicure.jpg'
+import Make_up from '../Assets/Make Up.jpeg'
 
 const Services = () => {
   return (
@@ -20,7 +21,7 @@ const Services = () => {
                 <img class="d-block w-100" src="..." alt="Second slide"></img>
                 </div>
                 <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide"></img>
+                <img class="d-block w-100" src={Make_up} alt="Third slide"></img>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
