@@ -1,4 +1,5 @@
 import React from 'react'
+import Manicure from '../Assets/Manicure.jpg'
 
 const Services = () => {
   return (
@@ -13,13 +14,13 @@ const Services = () => {
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img class="d-block w-100" src="..." alt="First slide">
+                <img class="d-block w-100" src={Manicure} alt="First slide"></img>
                 </div>
                 <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Second slide">
+                <img class="d-block w-100" src="..." alt="Second slide"></img>
                 </div>
                 <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
+                <img class="d-block w-100" src="..." alt="Third slide"></img>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
