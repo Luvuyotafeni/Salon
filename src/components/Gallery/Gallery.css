@@ -1,0 +1,5 @@
+.middle-card img {
+    height: 300px; /* Adjust the height to make it larger */
+    object-fit: cover; /* Ensure the image covers the entire area */
+  }
+  
