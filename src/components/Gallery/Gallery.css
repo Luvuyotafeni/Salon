@@ -2,4 +2,8 @@
     height: 300px; /* Adjust the height to make it larger */
     object-fit: cover; /* Ensure the image covers the entire area */
   }
-  
+
+  .center{
+    text-align: center;
+    margin: 80px;   
+}
