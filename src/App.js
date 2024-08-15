@@ -3,6 +3,7 @@ import About from './components/About/About';
 import Gallery from './components/Gallery/Gallery';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Products from './components/Products/Products';
 import Services from './components/Services/Services';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Services/>
       <Gallery/>
+      <Products/>
     </>
   );
 }
