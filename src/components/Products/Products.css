@@ -1,0 +1,14 @@
+.center{
+    text-align: center;
+    margin: 80px;   
+}
+
+.btn-vm{
+    margin:20px;
+    width:100px;
+    font-size: small;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+}
