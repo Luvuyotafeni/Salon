@@ -1,5 +1,9 @@
 import React from 'react';
 import './Gallery.css'; // Import your custom styles
+import G1 from '../Assets/Gallery image 1.jpeg'
+import G2 from '../Assets/Gallery image 2.jpeg'
+import G3 from '../Assets/Gallery image 3.jpeg'
+
 
 const Gallery = () => {
   return (
@@ -7,22 +11,22 @@ const Gallery = () => {
       <h2 className='center'>Gallery</h2>
       <div className="row">
         <div className="col-md-4">
-          <div className="card">
-            <img src="https://via.placeholder.com/350x150" className="card-img-top" alt="Side Image 1" />
+          <div className="card middle-card">
+            <img src={G1} className="card-img-top" alt="Side Image 1" />
    
           </div>
         </div>
 
         <div className="col-md-4">
-          <div className="card middle-card">
-            <img src="https://via.placeholder.com/350x300" className="card-img-top" alt="Middle Image" />
+          <div className="card ">
+            <img src={G2}className="card-img-top" alt="Middle Image" />
             
           </div>
         </div>
 
         <div className="col-md-4">
-          <div className="card">
-            <img src="https://via.placeholder.com/350x150" className="card-img-top" alt="Side Image 2" />
+          <div className="card middle-card">
+            <img src={G3} className="card-img-top" alt="Side Image 2" />
           </div>
         </div>
       </div>
