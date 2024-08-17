@@ -1,4 +1,5 @@
 import React from 'react'
+import log from '../Assets/logo no background.png'
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
           <div className="row">
           <div className="col-md-4">
             <div className="card middle-card">
-              <img src={Nails1} className="card-img-top" alt="Side Image 1" />
+              <img src={log} className="card-img-top" alt="Side Image 1" />
               <div className="card-body">
                 <h5 className="card-title">Image 1</h5>
                 <p className="card-text">Description of the first image.</p>
