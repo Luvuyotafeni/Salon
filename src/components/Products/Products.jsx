@@ -45,8 +45,9 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <button className='btn-vm'>View more</button>
+          
         </div>
+        <button className='btn btn-dark mt-2 mb-2'>View more</button>
       </div>
       <div className='container'>
           <h4>
@@ -82,8 +83,8 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <button className='btn-vm'>View more</button>
         </div>
+        <button className='btn btn-dark mt-2 mb-2'>View more</button>
       </div>
     </div>
   )

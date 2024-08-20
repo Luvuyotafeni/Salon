@@ -36,6 +36,7 @@ const Contact = () => {
                   </div>
               </div>
             </div>
+            <button className='btn btn-dark'>Make Reservation</button>
           </div>
 
         </div>
