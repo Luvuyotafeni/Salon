@@ -17,6 +17,7 @@ const About = () => {
                         feeling beautiful and confident. Whether you're looking for a fresh and stunning new hairstyle,
                         or perfectly manicured nails, our talented and experienced team is here to bring your beauty vision
                         to life. Join us at Barbie Hair and experience the ultimate in salon luxury and personalized care. </p>
+                        <button className='btn btn-dark mt-2 mb-2 button'>Meet the team</button>
                 </div>
             </div>
         </div>

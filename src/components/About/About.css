@@ -18,3 +18,8 @@
     margin: 100px 50px;
     text-align: center;
 }
+
+.button{
+    align-self: center;
+    margin-left: 300px;
+}

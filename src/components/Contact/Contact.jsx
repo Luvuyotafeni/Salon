@@ -19,10 +19,11 @@ const Contact = () => {
               <div className="col-md-4">
     
                   <div className="card-body">
-                    <p className='card-text'> <a href=''>barbie@gmail.com</a></p>
-                    <p className="card-text">0713638636</p>
-                    <p className="card-text">0713638636</p>
-                    <p className="card-text">0713638636</p>
+                    <p className='card-text'><i class='bx bxl-gmail'></i><a href=''>barbie@gmail.com</a></p>
+                    <p className="card-text"><i class='bx bxs-phone'></i>0713638636</p>
+                    <p className="card-text"><i class='bx bxl-whatsapp'></i>0713638636</p>
+                    <p className="card-text"><i class='bx bxl-instagram'></i> 0713638636</p>
+                    <p className="card-text"><i class='bx bxl-instagram'></i> 0713638636</p>
                   </div>             
 
               </div>
