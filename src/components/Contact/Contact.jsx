@@ -37,14 +37,44 @@ const Contact = () => {
                   </div>
               </div>
             </div>
-            <button type="button" className="btn btn-dark" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
-                <div className="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                  <div className="modal-dialog modal-lg">
-                    <div className="modal-content">
-                      ...
+            <button type="button" className="btn btn-dark" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Large modal</button>
+              <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div className="modal-dialog modal-lg">
+                  <div className="modal-content">
+                    <div className="modal-header">
+                      <h5 className="modal-title" id="myLargeModalLabel">Reservation Form</h5>
+                      <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div className="modal-body">
+                      <form>
+                        <div className="mb-3">
+                          <label htmlFor="name" className="form-label">Name</label>
+                          <input type="text" className="form-control" id="name" placeholder="Enter your name" />
+                        </div>
+                        <div className="mb-3">
+                          <label htmlFor="surname" className="form-label">Surname</label>
+                          <input type="text" className="form-control" id="surname" placeholder="Enter your surname" />
+                        </div>
+                        <div className="mb-3">
+                          <label htmlFor="email" className="form-label">Email</label>
+                          <input type="email" className="form-control" id="email" placeholder="Enter your email" />
+                        </div>
+                        <div className="mb-3">
+                          <label htmlFor="phone" className="form-label">Phone Number</label>
+                          <input type="tel" className="form-control" id="phone" placeholder="Enter your phone number" />
+                        </div>
+                        <div className="mb-3">
+                          <label htmlFor="datetime" className="form-label">Date & Time</label>
+                          <input type="datetime-local" className="form-control" id="datetime" />
+                        </div>
+                        <button type="submit" className="btn btn-dark">Reserve</button>
+                      </form>
                     </div>
                   </div>
                 </div>
+              </div>
+
+
           </div>
 
         </div>
