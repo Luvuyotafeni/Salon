@@ -4,9 +4,10 @@ import './Contact.css'
 
 const Contact = () => {
   return (
+    <>
     <div className='contact'>
-        <div className='container'>
-          <h2 className='center '>Contact Us</h2>
+        <div className='container mt-2'>
+          <h2 className='center mt-2'>Contact Us</h2>
             <div className='container'>
               <div className="row">
               <div className="col-md-4">
@@ -37,11 +38,11 @@ const Contact = () => {
                   </div>
               </div>
             </div>
-            <button type="button" className="btn btn-dark" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Large modal</button>
+            <button type="button" className="btn btn-dark d-block mx-auto mb-2 mt-2" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Large modal</button>
               <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-lg">
                   <div className="modal-content">
-                    <div className="modal-header">
+                    <div className="modal-header justify-content-center">
                       <h5 className="modal-title" id="myLargeModalLabel">Reservation Form</h5>
                       <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -67,18 +68,17 @@ const Contact = () => {
                           <label htmlFor="datetime" className="form-label">Date & Time</label>
                           <input type="datetime-local" className="form-control" id="datetime" />
                         </div>
-                        <button type="submit" className="btn btn-dark">Reserve</button>
+                        <button type="submit" className="btn btn-dark d-block mx-auto">Reserve</button>
                       </form>
                     </div>
                   </div>
                 </div>
               </div>
-
-
           </div>
-
         </div>
+        <div></div>
       </div>
+      </>
   )
 }
 
