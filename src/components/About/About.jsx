@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import aboutimg from '../Assets/About image.jpeg'
+import Sphe from '../Assets/Team1.jpeg'
 
 const About = () => {
   return (
@@ -29,7 +30,7 @@ const About = () => {
                                     <div className="row">
                                     <div className="col-md-6">
                                         <div className="card">
-                                        <img src="path/to/image1.jpg" className="card-img-top rounded-circle" alt="Team Member 1" style={{ width: '150px', height: '150px', margin: '20px auto' }} />
+                                        <img src={Sphe}className="card-img-top rounded-circle" alt="Team Member 1" style={{ width: '150px', height: '150px', margin: '20px auto' }} />
                                         <div className="card-body text-center">
                                             <h5 className="card-title">Sphe</h5>
                                             <p className="card-text"><strong>Phone Number:</strong> +123456789</p>
