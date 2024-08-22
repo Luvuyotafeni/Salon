@@ -17,8 +17,8 @@ const About = () => {
                         feeling beautiful and confident. Whether you're looking for a fresh and stunning new hairstyle,
                         or perfectly manicured nails, our talented and experienced team is here to bring your beauty vision
                         to life. Join us at Barbie Hair and experience the ultimate in salon luxury and personalized care. </p>
-                        <button type="button" className="btn btn-dark mt-2 mb-2 button d-block mx-auto" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Meet The Team</button>
-                            <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <button type="button" className="btn btn-dark mt-2 mb-2 button d-block mx-auto" data-bs-toggle="modal" data-bs-target=".bd-example-modal2-lg">Meet The Team</button>
+                            <div className="modal fade bd-example-modal2-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-lg">
                                 <div className="modal-content">
                                 <div className="modal-header justify-content-center">
@@ -31,9 +31,9 @@ const About = () => {
                                         <div className="card">
                                         <img src="path/to/image1.jpg" className="card-img-top rounded-circle" alt="Team Member 1" style={{ width: '150px', height: '150px', margin: '20px auto' }} />
                                         <div className="card-body text-center">
-                                            <h5 className="card-title">John Doe</h5>
+                                            <h5 className="card-title">Sphe</h5>
                                             <p className="card-text"><strong>Phone Number:</strong> +123456789</p>
-                                            <p className="card-text"><strong>Email:</strong> john.doe@example.com</p>
+                                            <p className="card-text"><strong>Email:</strong> Sphe@gmial.com</p>
                                         </div>
                                         </div>
                                     </div>
