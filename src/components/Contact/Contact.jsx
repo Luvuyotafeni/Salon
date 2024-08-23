@@ -38,7 +38,7 @@ const Contact = () => {
                   </div>
               </div>
             </div>
-            <button type="button" className="btn btn-dark d-block mx-auto mb-2 mt-2" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Large modal</button>
+            <button type="button" className="btn btn-dark d-block mx-auto mb-2 mt-2" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">Make reservation</button>
               <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-lg">
                   <div className="modal-content">
