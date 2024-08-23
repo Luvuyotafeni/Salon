@@ -1,6 +1,8 @@
 .home {
-    background-image: url('../Assets/Home.jpeg') ;
-    height:700px;
-    width: 1000px;
+    background-image: url('../Assets/Home.jpeg');
+    height: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
