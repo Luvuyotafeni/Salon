@@ -3,17 +3,21 @@ header {
     line-height: 10vh;
     width: 100%;
     background-color: white;
+    position: fixed;
+    z-index: 999;
   }
 
   header ul {
     display: flex;
     flex-direction: row;
+    
   }
   header ul li {
     margin-left: 30px;
     font-size: 2rem;
     display: flex;
     flex-direction: row;
+    margin-bottom: 5px;
   }
   header ul li a{
     text-decoration: none;
