@@ -1,5 +1,6 @@
 import React from 'react'
 import './Products.css'
+import data from './Products-API'
 import Nails1 from '../Assets/Nails.jpg'
 import Nails2 from '../Assets/Nails 2.jpg'
 import Nails3 from '../Assets/Nails 3.jpg'
@@ -8,6 +9,8 @@ import hair2 from '../Assets/Hair option 1.jpeg'
 import hair3 from '../Assets/Hair option 2.jpeg'
 
 const Products = () => {
+  const nailsProducts = data.filter(item => item.category === "Nails");
+  const hairProducts = data.filter(item => item.category === "Hair");
   return (
     <div className='container'>
         <h2 className='center'>Prodcuts</h2>
@@ -51,7 +54,20 @@ const Products = () => {
           <div className="modal fade bd-example-modal3-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-lg">
               <div className="modal-content">
-                {/* Your modal content goes here */}
+                <div className="row">
+                  {nailsProducts.map(product => (
+                    <div key={product.id} className="col-md-4">
+                      <div className="card">
+                        <img src={product.image} className="card-img-top" alt={product.title} />
+                        <div className="card-body">
+                          <h5 className="card-title">{product.title}</h5>
+                          <p className="card-text">{product.desc}</p>
+                          <p className="card-text">${product.price}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -95,7 +111,20 @@ const Products = () => {
           <div className="modal fade bd-example-modal4-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-lg">
               <div className="modal-content">
-                {/* Your modal content goes here */}
+                <div className="row">
+                  {hairProducts.map(product => (
+                    <div key={product.id} className="col-md-4">
+                      <div className="card">
+                        <img src={product.image} className="card-img-top" alt={product.title} />
+                        <div className="card-body">
+                          <h5 className="card-title">{product.title}</h5>
+                          <p className="card-text">{product.desc}</p>
+                          <p className="card-text">${product.price}</p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
