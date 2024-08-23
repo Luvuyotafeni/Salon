@@ -47,8 +47,8 @@ const Products = () => {
           </div>
           
         </div>
-        <button type="button" className="btn btn-dark mt-2 mb-2" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg">View more</button>
-          <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <button type="button" className="btn btn-dark mt-2 mb-2" data-bs-toggle="modal" data-bs-target=".bd-example-modal3-lg">View more</button>
+          <div className="modal fade bd-example-modal3-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div className="modal-dialog modal-lg">
               <div className="modal-content">
                 {/* Your modal content goes here */}
@@ -91,7 +91,14 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <button className='btn btn-dark mt-2 mb-2'>View more</button>
+        <button type="button" className="btn btn-dark mt-2 mb-2" data-bs-toggle="modal" data-bs-target=".bd-example-modal4-lg">View more</button>
+          <div className="modal fade bd-example-modal4-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div className="modal-dialog modal-lg">
+              <div className="modal-content">
+                {/* Your modal content goes here */}
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   )
