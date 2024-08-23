@@ -58,7 +58,7 @@ const Products = () => {
                 <div className="row">
                   {nailsProducts.map(product => (
                     <div key={product.id} className="col-md-4">
-                      <div className="card">
+                      <div className="card mb-2">
                         <img src={product.image} className="card-img-top" alt={product.title} />
                         <div className="card-body">
                           <h5 className="card-title">{product.title}</h5>
@@ -78,7 +78,7 @@ const Products = () => {
         <h4>Hair</h4>
         <div className="row">
           <div className="col-md-4">
-            <div className="card">
+            <div className="card ">
               <img src={hair1} className="card-img-top" alt="Side Image 1" />
               <div className="card-body">
                 <h5 className="card-title">Image 1</h5>
@@ -117,7 +117,7 @@ const Products = () => {
                 <div className="row">
                   {hairProducts.map(product => (
                     <div key={product.id} className="col-md-4">
-                      <div className="card">
+                      <div className="card mb-2">
                         <img src={product.image} className="card-img-top" alt={product.title} />
                         <div className="card-body">
                           <h5 className="card-title">{product.title}</h5>

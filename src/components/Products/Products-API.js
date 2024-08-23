@@ -8,7 +8,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 2,
@@ -16,7 +16,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant ",
       },
 
       {
@@ -25,14 +25,14 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant ",
       },{
         id: 4,
         image: Nails4 ,
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 5,
@@ -40,7 +40,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant ",
       },
       {
         id: 6,
@@ -48,7 +48,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 7,
@@ -56,7 +56,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 8,
@@ -64,7 +64,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 9,
@@ -72,7 +72,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 10,
@@ -80,7 +80,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 11,
@@ -88,7 +88,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 12,
@@ -96,7 +96,7 @@ const data = [
         title: "Versatile Website",
         category: "Nails",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 13,
@@ -104,7 +104,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 14,
@@ -112,7 +112,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 15,
@@ -120,7 +120,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 16,
@@ -128,7 +128,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 17,
@@ -136,7 +136,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 18,
@@ -144,7 +144,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 19,
@@ -152,7 +152,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to",
       },
       {
         id: 20,
@@ -160,7 +160,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 21,
@@ -168,7 +168,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
       {
         id: 22,
@@ -176,7 +176,7 @@ const data = [
         title: "Versatile Website",
         category: "Hair",
         price: 150,
-        desc: "This is a website that is meant to advertise skills offered at the company and also allow booking of the services. using HTML,CSS and Javascript",
+        desc: "This is a website that is meant to ",
       },
 ]
 export default data
