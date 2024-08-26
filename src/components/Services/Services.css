@@ -1,4 +1,5 @@
-.carousel{
+/* General Styles */
+.carousel {
     width: 500px;
     height: 500px;
     margin-left: 200px;
@@ -6,16 +7,109 @@
     margin-top: 0;
 }
 
-.carousel img{
-    height:500px;
+.carousel img {
+    height: 500px;
 }
 
-.center{
+.center {
     text-align: center;
-    margin: 80px;   
+    margin: 80px;
 }
 
-.Services{
+.Services {
     background-color: #FCAFAF;
     height: 700px;
+}
+
+/* Media Queries for Tablets (768px and below) */
+@media (max-width: 768px) {
+    .carousel {
+        width: 400px;
+        height: 400px;
+        margin-left: 50px; /* Adjust left margin for better centering */
+    }
+
+    .carousel img {
+        height: 400px; /* Adjust image height */
+    }
+
+    .center {
+        margin: 40px; /* Reduce margin for smaller screens */
+    }
+
+    .Services {
+        height: auto; /* Adjust height for content flexibility */
+    }
+}
+
+/* Media Queries for Smaller Screen Sizes (546px and below) */
+@media (max-width: 546px) {
+    .carousel {
+        width: 300px;
+        height: 300px;
+        margin-left: 0; /* Center the carousel by removing left margin */
+        margin-bottom: 50px; /* Adjust bottom margin */
+    }
+
+    .carousel img {
+        height: 300px; /* Adjust image height */
+    }
+
+    .center {
+        margin: 20px; /* Further reduce margin */
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .Services {
+        height: auto; /* Keep height flexible for smaller screens */
+        padding: 20px; /* Add padding for better spacing */
+    }
+}
+
+/* Media Queries for Small Screens (425px and below) */
+@media (max-width: 425px) {
+    .carousel {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+        margin-bottom: 30px; /* Further adjust bottom margin */
+    }
+
+    .carousel img {
+        height: 250px; /* Further reduce image height */
+    }
+
+    .center {
+        margin: 10px; /* Further reduce margin */
+        font-size: 20px; /* Adjust font size for very small screens */
+    }
+
+    .Services {
+        height: auto; /* Ensure flexibility */
+        padding: 10px; /* Further adjust padding */
+    }
+}
+
+/* Media Queries for Very Small Screens (320px and below) */
+@media (max-width: 320px) {
+    .carousel {
+        width: 200px;
+        height: 200px;
+        margin-left: 0;
+        margin-bottom: 20px; /* Further adjust bottom margin */
+    }
+
+    .carousel img {
+        height: 200px; /* Further reduce image height */
+    }
+
+    .center {
+        margin: 5px; /* Minimal margin */
+        font-size: 18px; /* Reduce font size for very small screens */
+    }
+
+    .Services {
+        height: auto;
+        padding: 5px; /* Minimize padding */
+    }
 }
