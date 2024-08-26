@@ -2,9 +2,7 @@
 .carousel {
     width: 500px;
     height: 500px;
-    margin-left: 200px;
-    margin-bottom: 100px;
-    margin-top: 0;
+    margin: 0 auto 100px auto; /* Center the carousel horizontally */
 }
 
 .carousel img {
@@ -26,7 +24,7 @@
     .carousel {
         width: 400px;
         height: 400px;
-        margin-left: 50px; /* Adjust left margin for better centering */
+        margin: 0 auto 100px auto; /* Maintain centering */
     }
 
     .carousel img {
@@ -47,8 +45,7 @@
     .carousel {
         width: 300px;
         height: 300px;
-        margin-left: 0; /* Center the carousel by removing left margin */
-        margin-bottom: 50px; /* Adjust bottom margin */
+        margin: 0 auto 50px auto; /* Maintain centering */
     }
 
     .carousel img {
@@ -71,12 +68,11 @@
     .carousel {
         width: 250px;
         height: 250px;
-        margin-left: 0;
-        margin-bottom: 30px; /* Further adjust bottom margin */
+        margin: 0 auto 30px auto; /* Maintain centering */
     }
 
     .carousel img {
-        height: 250px; /* Further reduce image height */
+        height: 250px; /* Adjust image height */
     }
 
     .center {
@@ -95,12 +91,11 @@
     .carousel {
         width: 200px;
         height: 200px;
-        margin-left: 0;
-        margin-bottom: 20px; /* Further adjust bottom margin */
+        margin: 0 auto 20px auto; /* Maintain centering */
     }
 
     .carousel img {
-        height: 200px; /* Further reduce image height */
+        height: 200px; /* Adjust image height */
     }
 
     .center {
