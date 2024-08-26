@@ -15,6 +15,20 @@
   align-items: center;
 }
 
+.header .logo {
+  /* Flex container for centering */
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+}
+
+.header .logo img {
+  max-height: 40px; /* Adjust height as needed */
+  max-width: 150px; /* Adjust width as needed */
+  object-fit: contain; /* Ensure the image scales properly */
+}
+
+/* Navigation Menu Styles */
 .nav-menu {
   display: flex;
   flex-direction: row;

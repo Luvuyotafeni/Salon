@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+import logo from '../Assets/logo no background.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
     <header className='header'>
       <div className='container d-flex'>
         <div className='logo'>
-          {/* Add your logo here */}
+          <img src={logo}/>
         </div>
         <div className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
           <div className='close-icon' onClick={toggleMenu}>
