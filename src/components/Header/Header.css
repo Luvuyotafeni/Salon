@@ -15,8 +15,6 @@
   align-items: center;
 }
 
-
-
 .nav-menu {
   display: flex;
   flex-direction: row;
@@ -71,28 +69,29 @@
     display: flex;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0; /* Position the menu in the top-right corner */
+    width: 80%; /* Adjust width of the pop-up menu */
+    max-width: 300px; /* Set a maximum width */
     height: 100vh;
     background-color: white;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end; /* Align items to the right */
     z-index: 1000;
+    padding: 20px; /* Add padding inside the menu */
   }
 
   .nav-menu.open ul {
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding: 0;
     margin: 0;
     list-style: none;
-    width: 100%;
   }
 
   .nav-menu.open ul li {
-    margin: 20px 0;
-    font-size: 1.5rem;
+    margin: 15px 0; /* Decrease margin between links */
+    font-size: 1.2rem; /* Decrease font size */
   }
 
   .close-icon {
