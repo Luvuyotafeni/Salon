@@ -18,7 +18,7 @@ const Products = () => {
       <div className='container'>
         <h4>Nails</h4>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 mb-2">
             <div className="card middle-card">
               <img src={Nails1} className="card-img-top" alt="Side Image 1" />
               <div className="card-body">
@@ -27,7 +27,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-2">
             <div className="card middle-card">
               <img src={Nails2} className="card-img-top" alt="Middle Image" />
               <div className="card-body">
@@ -36,7 +36,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-2">
             <div className="card middle-card">
               <img src={Nails3} className="card-img-top" alt="Side Image 2" />
               <div className="card-body">
@@ -77,7 +77,7 @@ const Products = () => {
       <div className='container'>
         <h4>Hair</h4>
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 mb-2">
             <div className="card ">
               <img src={hair1} className="card-img-top" alt="Side Image 1" />
               <div className="card-body">
@@ -86,7 +86,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 ">
             <div className="card">
               <img src={hair2} className="card-img-top" alt="Middle Image" />
               <div className="card-body">
@@ -95,7 +95,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-2">
             <div className="card">
               <img src={hair3} className="card-img-top" alt="Side Image 2" />
               <div className="card-body">
