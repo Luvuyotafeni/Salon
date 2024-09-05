@@ -86,7 +86,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 ">
+          <div className="col-md-4 mb-2">
             <div className="card">
               <img src={hair2} className="card-img-top" alt="Middle Image" />
               <div className="card-body">
